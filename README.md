@@ -1,7 +1,7 @@
 --------------------------------------
 Bienvenue sur un de mes projets Github
 --------------------------------------
-Après avoir suivi un tutoriel sur YouTube pour créer le jeu Pierre-Papier-Ciseaux en JavaScript.
+Après avoir suivi un tutoriel sur YouTube pour créer le jeu Shifumi en JavaScript.
 
 J'ai constaté que le résultat obtenu ne répondait pas pleinement à mes attentes.
 
