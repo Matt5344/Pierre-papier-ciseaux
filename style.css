@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center; /*Centrer horizontalement*/
+    height: 100vh; /*Verticalement*/
+    flex-direction: column; /*Mettre les éléments en colonnes*/
+    background-color: #DA5552;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 400px; /*Taille de la section*/
+    background-color: #fff; /*arrière plan de la section*/
+    padding: 25px; /*padding en haut et en bas de 25px*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+.choix { 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.choix h4 { /*TEXTE VOUS ET ORDINATEUR*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase; /*Mettre tous le texte en maj*/
+    color: #999;
+}
+img {
+    width: 60px;
+    height: 60px;
+    margin: 20px 0;
+}
+button { /*BOUTONS PAPIER PIERRE CISEAUX*/
+    padding: 5px 30px; /*Padding dans les boutons pour les agrandirs*/
+    margin-top: 20px; /*Créer espace entre bouton et h4*/
+    border: 2px solid #DA5552;
+    background-color: #DA5552;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.5s;
+    text-transform: capitalize; /*Mettre une majuscule au debut du texte*/
+}
+button:focus{
+    background: #fff;
+    color: #DA5552;
+}
